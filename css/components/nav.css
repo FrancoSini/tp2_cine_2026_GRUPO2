@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-principal);
+  padding: 16px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-logo h1 {
+  color: white;
+}
+
+.nav-logo img {
+  width: 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: var(--color-secundario);
+  border-radius: 8px;
+}

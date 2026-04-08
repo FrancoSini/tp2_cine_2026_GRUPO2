@@ -31,3 +31,11 @@
   --color-texto: #ffffff;
   --color-texto-suave: #b3b3b3;
 }*/
+
+@import url("./components/nav.css");
+@import url("./components/detalle.css");
+
+:root {
+  --color-principal: #1e1e2f;
+  --color-secundario: #ff4c4c;
+}
