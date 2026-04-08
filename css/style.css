@@ -33,7 +33,7 @@
 }*/
 
 @import url("./components/nav.css");
-@import url("./components/detalle.css");
+@import url("./components/detalles.css");
 
 :root {
   --color-principal: #1e1e2f;
