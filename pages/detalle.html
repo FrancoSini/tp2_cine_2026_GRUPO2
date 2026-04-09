@@ -4,93 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cine Aurora 📽️</title>
-    <meta name="description" content="Cine Aurora - Detalle de la película." />
+
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
 
   <body>
-    <header class="nav">
-      <div class="nav-logo">
+    <header class="header">
+      <div class="header-logo">
         <h1>Cine Aurora</h1>
-        <img src="../assets/favicon/logo-cine.png" alt="Logo de Cine Aurora" />
+        <img src="../assets/favicon/logo-cine.png" alt="logo" />
       </div>
 
-      <nav class="nav-links">
+      <nav class="nav">
         <a href="../index.html">Inicio</a>
-        <a href="../pages/estrenos.html">Próximos estrenos</a>
-        <a href="../pages/login.html">Mi perfil</a>
+        <a href="./estrenos.html">Próximos estrenos</a>
+        <a href="./login.html">Mi perfil</a>
       </nav>
     </header>
 
     <main>
       <section class="detalle-container">
-
-        <!-- POSTER -->
-        <div class="detalle-img">
-          <img src="../assets/img/poster-1.png" alt="Poster de la película" />
+        <div class="detalle-poster">
+          <img src="../assets/img/poster-1.png" alt="Póster" />
         </div>
 
-        <!-- INFO -->
         <div class="detalle-info">
-
-          <div>
-            <h1 class="titulo">Título</h1>
-            <h2 class="subtitulo">Lorem ipsum, dolor sit.</h2>
+          <div class="detalle-header">
+            <h1>Título de la película</h1>
+            <h2>Ciencia ficción</h2>
           </div>
 
-          <div>
+          <div class="detalle-seccion">
             <h3>Sinopsis</h3>
-            <p class="sinopsis">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequuntur, accusantium.
             </p>
           </div>
 
-          <div>
+          <div class="detalle-seccion">
             <h3>Duración</h3>
             <p>155 minutos</p>
           </div>
 
-          <div>
-            <h3>Género</h3>
-            <p>Ciencia ficción</p>
-          </div>
-
-          <div>
+          <div class="detalle-seccion">
             <h3>Director</h3>
             <p>John Doe</p>
           </div>
 
-          <div>
+          <div class="detalle-seccion">
             <h3>Clasificación</h3>
             <p>+13</p>
           </div>
 
-          
-          <div class="horarios">
-            <h3>Horarios:</h3>
-            <div class="horas">
-              <span>16:00</span>
-              <span>19:00</span>
-              <span>22:00</span>
-            </div>
+          <div class="detalle-seccion">
+            <h3>Horarios</h3>
+            <p>16:00 - 19:00 - 22:00</p>
           </div>
 
-          <div class="rating">
-            <p>Puntuación: ★★★★☆</p>
+          <div class="detalle-puntuacion">
+            ★★★★☆
           </div>
 
-          <a href="#" class="btn-comprar"
-            onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">
+          <a class="btn-comprar" href="#" onclick="alert('Sistema no disponible')">
             Comprar entradas
           </a>
-
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+      <p>&copy; 2026 Cine Aurora</p>
     </footer>
   </body>
 </html>
