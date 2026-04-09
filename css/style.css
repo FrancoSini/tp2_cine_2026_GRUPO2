@@ -31,3 +31,18 @@
   --color-texto: #ffffff;
   --color-texto-suave: #b3b3b3;
 }*/
+/* Tablets (pantallas medianas) */
+@media (max-width: 1024px) {
+  section {
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: auto;         
+  }
+}
+
+/* Celulares (pantallas chicas) */
+@media (max-width: 600px) {
+  section {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;   
+  }
+}
