@@ -4,5 +4,20 @@ section {
     grid-template-rows: repeat(2,auto) ;   
     gap: 20px;
 }
+form {
+  display: grid;
+  grid-template-columns: 150px 1fr; 
+  gap: 20px 20px;
+  max-width: 500px;   
+  margin: 0 auto;    
+  padding: 20px;
+  background-color: #f9f9f9;
+}
 
-
+form h2,
+form hr,
+form h3,
+form p,
+form button {
+  grid-column: 1 / -1; 
+}
