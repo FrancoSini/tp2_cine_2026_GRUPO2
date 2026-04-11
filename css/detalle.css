@@ -1,4 +1,4 @@
-/* IMPORTS (MODULARIZACIÓN) */
+/* IMPORTS */
 @import url('./components/nav.css');
 @import url('./components/button.css');
 @import url('./components/poster.css');
@@ -34,19 +34,15 @@ body {
     padding: 15px 20px;
 }
 
-.header-logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
+/* CONTENEDOR PRINCIPAL */
 .detalle-container {
     display: flex;
     gap: 30px;
     padding: 20px;
+    background-color: var(--color-card);
+    margin: 20px;
+    border-radius: 10px;
 }
-
-
 
 /* INFO */
 .detalle-info {
@@ -71,6 +67,21 @@ body {
 .detalle-puntuacion {
     font-size: 1.5rem;
     margin: 15px 0;
+}
+
+
+.btn-comprar {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--color-accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-comprar:hover {
+    background-color: #b20710;
 }
 
 
