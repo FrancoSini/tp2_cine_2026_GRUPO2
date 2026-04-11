@@ -22,7 +22,7 @@
 }
 
 .detalle-header h2 {
-  color: var(--color-primary);
+  color: var(--color-primario);
 }
 
 /* SECCIONES */
@@ -38,21 +38,6 @@
   color: gold;
 }
 
-/* BOTON */
-.btn-comprar {
-  background-color: var(--color-primary);
-  padding: 12px;
-  text-align: center;
-  border-radius: 8px;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.btn-comprar:hover {
-  background-color: orange;
-}
 
 /* 📱 MEDIA QUERY (OBLIGATORIO) */
 @media (max-width: 768px) {
