@@ -4,23 +4,15 @@
     align-items: center;
     background-color: #020617;
     padding: 15px 20px;
+    gap: 20px;
 }
 
-.logo {
-    color: white;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-
-.nav-links a {
+.nav a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
-.nav-links a:hover {
+.nav a:hover {
     color: red;
 }
