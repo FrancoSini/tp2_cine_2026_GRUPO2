@@ -1,56 +1,99 @@
-.detalle-container {
-  display: flex;
-  gap: 32px;
-  padding: 32px;
+/* IMPORTS */
+@import url('./components/nav.css');
+@import url('./components/button.css');
+@import url('./components/poster.css');
+@import url('./components/footer.css');
+
+/* VARIABLES */
+:root {
+    --color-bg: #0f172a;
+    --color-card: #1e293b;
+    --color-text: #ffffff;
+    --color-accent: #e50914;
 }
 
-/* POSTER */
-.detalle-poster img {
-  width: 300px;
-  border-radius: 8px;
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.detalle-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    background-color: var(--color-card);
+    margin: 20px;
+    border-radius: 10px;
 }
 
 /* INFO */
 .detalle-info {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+    max-width: 600px;
 }
 
 .detalle-header h1 {
-  font-size: 32px;
+    font-size: 2rem;
 }
 
 .detalle-header h2 {
   color: var(--color-primario);
+    color: gray;
+    margin-bottom: 10px;
 }
 
 /* SECCIONES */
 .detalle-seccion {
-  background-color: var(--color-card);
-  padding: 16px;
-  border-radius: 8px;
+    margin: 15px 0;
 }
 
-/* PUNTUACION */
+/* PUNTUACIÓN */
 .detalle-puntuacion {
-  font-size: 24px;
-  color: gold;
+    font-size: 1.5rem;
+    margin: 15px 0;
 }
 
 
-/* 📱 MEDIA QUERY (OBLIGATORIO) */
+.btn-comprar {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--color-accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-comprar:hover {
+    background-color: #b20710;
+}
+
+
 @media (max-width: 768px) {
-  .detalle-container {
-    flex-direction: column;
-    align-items: center;
-  }
+    .detalle-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-  .detalle-poster img {
-    width: 100%;
-  }
-
-  .detalle-info {
-    width: 100%;
-  }
+    .detalle-poster img {
+        width: 80%;
+    }
 }
