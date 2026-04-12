@@ -4,3 +4,26 @@ img {
   width: 100px;
   height: 100px;
 }
+main section img{
+  width: 100px;
+  height: 100px; 
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.4s ease;
+}
+main section img:hover{
+    transform: translateY(-8px); /* Se mueve hacia arriba */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+main section h4{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+
+}
+
+
+
