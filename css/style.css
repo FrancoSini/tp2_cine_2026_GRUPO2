@@ -9,7 +9,7 @@
 /* Paletas de colores que pueden usar: */
 
 /* Paleta 1: */
-root {
+:root {
   --color-fondo: #0f172a;
   --color-superficie: #1e293b;
   --color-primario: #e11d48;

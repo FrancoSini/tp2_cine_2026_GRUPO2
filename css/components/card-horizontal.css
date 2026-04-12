@@ -4,3 +4,11 @@ h2 {
 form h3 {
     text-align: center;
 }
+header {
+    text-align: center;
+}
+hr {
+  border: none;          
+  height: 3px;           
+  width: 100%;           
+}
