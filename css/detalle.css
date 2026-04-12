@@ -54,7 +54,7 @@ body {
 }
 
 .detalle-header h2 {
-  color: var(--color-primario);
+    color: var(--color-primario);
     color: gray;
     margin-bottom: 10px;
 }
@@ -84,7 +84,6 @@ body {
 .btn-comprar:hover {
     background-color: #b20710;
 }
-
 
 @media (max-width: 768px) {
     .detalle-container {
