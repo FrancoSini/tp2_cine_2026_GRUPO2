@@ -65,6 +65,42 @@ header {
     background-color: #b20710;
 }
 
+
+.form-registro {
+    display: grid;
+    gap: 16px;
+    width: 100%;
+    max-width: 500px;
+    background-color: var(--color-superficie);
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+
+.form-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.form-registro input,
+.form-registro select {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+
+.form-radio {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
 @media (max-width: 768px) {
     .detalle-container {
         flex-direction: column;
