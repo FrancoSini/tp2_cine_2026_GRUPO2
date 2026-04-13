@@ -1,9 +1,8 @@
-/*Tarde demasiado para entender que Flexbox significaba Display:Flex, pero aqui esta la carta vertical*/
-.card {
+form {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  width: 220px;
+  width: 270px;
   border: 1px solid #94a3b8;
   border-radius: 12px;
   padding: 1rem;
