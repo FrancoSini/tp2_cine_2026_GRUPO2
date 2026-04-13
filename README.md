@@ -1,6 +1,6 @@
 # Trabajo práctico N°2:
 
-GRUPO N°2:
+##GRUPO N°2:
 - Franco Sinigaglia
 - Joaquin Pignotti
 - Lucia Aguero
@@ -8,8 +8,7 @@ GRUPO N°2:
 - Ricardo Herbas
 - Ignacio Painenahuel Luna
 
-
-
+---
 
 - Flexbox
 - Grids
