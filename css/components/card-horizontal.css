@@ -12,3 +12,7 @@ hr {
   height: 3px;           
   width: 100%;           
 }
+.logo  img{
+    width: 5%;
+    height: 5%;
+}
