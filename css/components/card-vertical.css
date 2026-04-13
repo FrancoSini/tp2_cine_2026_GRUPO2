@@ -1,4 +1,4 @@
-//Tarde demasiado para entender que Flexbox significaba Display:Flex, pero aqui esta la carta vertical
+/*Tarde demasiado para entender que Flexbox significaba Display:Flex, pero aqui esta la carta vertical*/
 .card {
   display: flex;
   flex-direction: column;
