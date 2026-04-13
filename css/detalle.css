@@ -12,12 +12,7 @@
     --color-accent: #e50914;
 }
 
-/* RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 /* BODY */
 body {
@@ -25,23 +20,8 @@ body {
     background-color: var(--color-bg);
     color: var(--color-text);
 }
-
-/* HEADER */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-}
-
-/* CONTENEDOR PRINCIPAL */
-.detalle-container {
-    display: flex;
-    gap: 30px;
-    padding: 20px;
-    background-color: var(--color-card);
-    margin: 20px;
-    border-radius: 10px;
+header {
+    text-align: center;
 }
 
 /* INFO */
@@ -61,7 +41,7 @@ body {
 
 /* SECCIONES */
 .detalle-seccion {
-    margin: 15px 0;
+    margin: 15px auto 50px;
 }
 
 /* PUNTUACIÓN */
