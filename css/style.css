@@ -3,11 +3,14 @@
 @import url(components/card-horizontal.css);
 @import url("./components/nav.css");
 @import url("./detalle.css");
+@import url("components/footer.css");
+@import url("./components/button.css");
+@import url(components/card-vertical.css);
 
 /* Paletas de colores que pueden usar: */
 
 /* Paleta 1: */
-root {
+:root {
   --color-fondo: #0f172a;
   --color-superficie: #1e293b;
   --color-primario: #e11d48;
@@ -36,3 +39,17 @@ root {
   --color-texto-suave: #b3b3b3;
 }*/
 
+@media (max-width: 1024px) {
+  section {
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: auto;         
+  }
+}
+
+/* Celulares (pantallas chicas) */
+@media (max-width: 600px) {
+  section {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;   
+  }
+}
